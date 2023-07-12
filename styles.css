@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 50px 160px;
+    margin: 20px 160px;
     font-family: Inter;
 }
 
@@ -46,12 +46,12 @@ h4:hover {
 }
 
 .main-container {
-    margin-top: 40px;
+    margin-top: 20px;
     display: grid;
     width: 100%;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 230px 140px 100px;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.7fr 0.7rem;
+    gap: 15px;
 }
 
 .section-image {
@@ -94,6 +94,11 @@ button:hover {
 .article {
     display: flex;
     flex-direction: row;
+}
+
+.article img {
+    height: 5rem;
+    width: 4rem;
 }
 
 .article-title:hover {
